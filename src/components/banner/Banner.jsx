@@ -9,11 +9,11 @@ import { RiMenu3Fill } from "react-icons/ri";
 const Banner = () => {
   return (
       <section>
-      <div className='container flex mx-auto'>
+      <div className='container flex justify-between mx-auto'>
         <div className='mt-[192px]'>
           <p className='font-bold text-[28px] '>Hello i’m</p> 
           <h1 className='font-bold text-[90px] w-[405px] '>Brooklyn Simmons</h1>
-          <button className='bg-[#FF494A] flex text-white items-center rounded-[50px] py-5 px-[30px] gap-[10px] font-medium mt-[20px]'>View Portfolio <FaArrowRight /> </button> 
+          <button className='bg-[#FF494A] flex cursor-pointer hover:bg-[#a43131]  text-white items-center rounded-[50px] py-5 px-[30px] gap-[10px] font-medium mt-[20px]'>View Portfolio <FaArrowRight /> </button> 
         </div>
 
         
@@ -27,22 +27,22 @@ const Banner = () => {
            <p className='mt-[40px]'>Find me on</p>
 
            <div className='flex items-center gap-x-2 mt-2.5'> 
-                   <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
-                   <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
-                   <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
-                   <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
             </div>
 
         </div>
 
 
        </div>
-        <div className='absolute top-[700px] right-[210px]'>
+        <div className='absolute top-[780px] right-[480px]'>
             <div className="flex items-center justify-center mb-[50px]">
             <h1 className="text-[110px] font-black tracking-widest text-transparent [-webkit-text-stroke:1px_red]"> WEB DESIGN</h1>
         </div>
         </div>
-        <div className='absolute top-[620px] right-[120px] z-[-99999]'>
+        <div className='absolute top-[700px] right-[400px] z-[-99999]'>
             <div className="flex items-center justify-center mb-[50px]">
             <h1 className="text-[130px] font-black tracking-widest text-transparent [-webkit-text-stroke:1px_black]"> WEB DESIGN</h1>
         </div>

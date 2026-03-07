@@ -26,11 +26,11 @@ const Navbar = () => {
 
 
     <div className='flex items-center gap-x-2'> 
-        <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
-        <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
-        <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
-        <div className='py-[13px] px-[13px] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
-        <div className='py-[13px] px-[13px] ml-[25px] rounded-[50px] bg-[#FF494A] text-white text-[20px]'><RiMenu3Fill /></div>
+        <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
+        <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
+        <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
+        <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
+        <div className='py-[13px] px-[13px] ml-[25px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#FF494A] text-white text-[20px]'><RiMenu3Fill /></div>
     </div>
 
     </div>
