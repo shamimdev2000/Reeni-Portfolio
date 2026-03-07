@@ -2,14 +2,13 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 import banner from "../../assets/banner.png"
 import { FaInstagram,FaLinkedinIn,FaTwitter,FaFacebookF,} from "react-icons/fa";
-import { RiMenu3Fill } from "react-icons/ri";
 
 
 
 const Banner = () => {
   return (
       <section>
-      <div className='container flex justify-between mx-auto'>
+      <div className='container md:flex mx-auto mb-[200px] '>
         <div className='mt-[192px]'>
           <p className='font-bold text-[28px] '>Hello i’m</p> 
           <h1 className='font-bold text-[90px] w-[405px] '>Brooklyn Simmons</h1>
@@ -21,16 +20,16 @@ const Banner = () => {
             <img src={banner} alt="" />
         </div>
 
-        <div>
-           <p className='mt-[192px]'>About Me</p>
-           <p className='mt-[40px] w-[296px]'>A personal <span className='text-[#FF494A]'>portfolio</span> is a collection of to your work, that is achievements, and a skills that <span  className='text-[#FF494A]'>web design</span> highlights in your</p>
+        <div className=''>
+           <p className='mt-[192px]  font-bold'>About Me</p>
+           <p className='mt-[40px] text w-[296px]'>A personal <span className='text-[#FF494A]'>portfolio</span> is a collection of to your work, that is achievements, and a skills that <span  className='text-[#FF494A]'>web design</span> highlights in your</p>
            <p className='mt-[40px]'>Find me on</p>
 
            <div className='flex items-center gap-x-2 mt-2.5'> 
-                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
-                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
-                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
-                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#d38a8a] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#5f5e5e]  rounded-[50px] bg-[#E7E7E7]'><FaInstagram /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#5f5e5e]  rounded-[50px] bg-[#E7E7E7]'><FaLinkedinIn /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#5f5e5e]  rounded-[50px] bg-[#E7E7E7]'><FaTwitter /></div>
+                   <div className='py-[13px] px-[13px] cursor-pointer hover:bg-[#5f5e5e] rounded-[50px] bg-[#E7E7E7]'><FaFacebookF /></div>
             </div>
 
         </div>
