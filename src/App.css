@@ -1,5 +1,5 @@
 @layer utilities {
   .container {
-    @apply max-w-[1295px] mx-auto;
+    @apply w-[1295px] mx-auto;
   }
 }

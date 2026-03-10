@@ -35,7 +35,7 @@ const Exprience = () => {
 
         <div className='mt-[120px] md:flex justify-between'>
 
-              <div className=' border1 border-none bg-[#F4F4F4] border w-[622.5px] rounded-[20px]'>
+              <div className='ml-6 md: border1 border-none bg-[#F4F4F4] border w-[622.5px] rounded-[20px]'>
                <div className='flex gap-x-[44px] '>
                   <h2 className='font-bold text-[167px] mt-[42px] ml-[52px] text-[#FF494A]'>25</h2>
                 <h3 className='font-bold text-[48px] w-[216px] mt-[95px] '>Years Of experience</h3>
@@ -46,7 +46,7 @@ const Exprience = () => {
              <div className='gap-x-[30px] '>
                  <div>
 
-                <div className='  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4]  w-[296px] rounded-[20px]'>
+                <div className='mt-10 ml-20  md:  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4] w-[496px]  md: w-[296px] rounded-[20px]'>
                <div className='flex gap-x-[44px] '>
                 <h3 className='font-bold text-[46px] w-[216px] pt-[35px] pl-[95px]   '>20K+</h3>
                </div>
@@ -56,9 +56,9 @@ const Exprience = () => {
               </div>
               
               <div>
-                <div className='mt-[30px]  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4]  w-[296px] rounded-[20px]'>
+                <div className='mt-10 ml-20  md: mt-[30px]  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4] w-[496px]  md:  w-[296px] rounded-[20px]'>
                <div className='flex gap-x-[44px] '>
-                <h3 className='font-bold text-[46px] w-[216px] pt-[35px] pl-[95px]  '>200+</h3>
+                <h3 className='font-bold text-[46px] w-[496px] md: w-[216px] pt-[35px] pl-[95px]  '>200+</h3>
                </div>
                 <p className='w-[518px] pt-[12px] pl-[88px] text-[#5D6570] pb-[51px]'>Clients Reviews</p>
               </div>
@@ -67,7 +67,7 @@ const Exprience = () => {
              <div className=''>
                  <div>
 
-                <div className='  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4]  w-[296px] rounded-[20px]'>
+                <div className='mt-10 ml-20  md:  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4] w-[496px]  md:  w-[296px] rounded-[20px]'>
                <div className='flex gap-x-[44px] '>
                 <h3 className='font-bold text-[46px] w-[216px] pt-[35px] pl-[95px]   '>10K+</h3>
                </div>
@@ -77,7 +77,7 @@ const Exprience = () => {
               </div>
               
               <div className=''>
-                <div className='mt-[30px]  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4]  w-[296px] rounded-[20px]'>
+                <div className=' mt-10 ml-20  md: mt-[30px]  border-b-2 border-r-2 border-[#FF494A]  bg-[#F4F4F4] w-[496px]  md:  w-[296px] rounded-[20px]'>
                <div className='flex gap-x-[44px] '>
                 <h3 className='font-bold text-[46px] w-[216px] pt-[35px] pl-[68px]  '>1,000+</h3>
                </div>
